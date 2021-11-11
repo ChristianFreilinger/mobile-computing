@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  NumberGuesser
-//
-//  Created by Stefan Hemberger on 14.10.21.
-//
+
 
 import UIKit
 
