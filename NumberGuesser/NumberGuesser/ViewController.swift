@@ -7,6 +7,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputField: UITextField!
     @IBOutlet weak var textView: UILabel!
     
+    @IBOutlet weak var therealbutton: UIButton!
     @IBOutlet weak var button: UITextField!
     // let target: Int = Int.random(in: 0...100)
     var model = Model()
@@ -19,7 +20,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func onEditingChanged(_ sender: Any) {
-        self.button.isEnabled = true
+        self.therealbutton.isEnabled = true
     }
     
     @IBAction func onCheckButtonClicked(_ sender: Any) {
